@@ -13,7 +13,7 @@ https://www.npmjs.com/package/permission
 * Criar webservices para informar se têm permissões ou não
 	* Webservices de autenticação - Carlos Silva, Simao Moleiro, André Almeida
 	* Formulários de autenticação - João Alves, Rafael Lopes
-* Definir como os formulários usam o webservice - Todos menos João Nunes e José Machado
+* Definir como os formulários usam o webservice - Todos
 
 ## Membros
 * Carlos Silva
