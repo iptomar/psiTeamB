@@ -1,0 +1,344 @@
+UTILIZADOR: Diretor Técnico
+
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Cria Fichas Técnicas"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Atribui objetos a Técnicos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Atribui objetos a Técnicos em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Aceita os trabalhos do Técnicos em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Rejeita os trabalhos do Técnicos em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Tem acesso ao número do objeto"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Acessa a uma lista com o material disponível"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Pede o material no inicio do processo de restauro"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Tem acesso uma página com os pedidos do material necessário"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Acessa às alterações anteriores do objeto"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Tem acesso a um horário do período em que o Técnico em Formação vai estar em contacto com o objeto"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Tira dúvidas e fazer observações ao Técnico em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Valida as submissões enviadas pelos Técnicos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Valida as submissões enviadas pelos Técnicos em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Cria um processo"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Introduz um novo objeto no processo criado"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Filtra os objetos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Ve quais os objetos já atribuidos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Ve um relatório de todo o processo de restauro"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Ve o histórico de cada objeto"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Distribui os objetos pelos Técnicos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Distribui os objetos pelos Técnicos em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Ve o estado atual de cada objeto"]
+  };
+  return callback(null, user, context);
+}
+
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Avalia os Técnicos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Avalia os Técnicos em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Consulta os processos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Consulta os objetos mais prioritários"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Ve os conteúdos introduzidos na Ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Corrige os conteúdos da Ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Aceita os conteúdos na Ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Diretor Técnico1"]
+    "roles": ["Diretor Técnico"],
+    "permissions": ["Rejeita os conteúdos na Ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
