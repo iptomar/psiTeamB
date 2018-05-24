@@ -1,0 +1,446 @@
+//As roles e permissões do Gestor de Sistema estão feitas!!!!!!!!!!!!
+//*************************Gestor de Ssitema***********************//
+
+function (user, context, callback) {
+  var namespace = 'https://app.pt/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Todos os Users"]
+    "roles": ["Gestor"],
+    "permissions": ["Vê	o seu perfil "]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Cria uma conta do coordenador de Equipa"]
+  };
+  return callback(null, user, context);
+}
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Cria uma conta do Diretor Técnico"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Cria uma conta do Técnico"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Cria uma conta do Técnico em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Distribui os objetos pelos Técnicos em Formação para restauro"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Consulta os processos"]
+  };
+  return callback(null, user, context);
+}
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Vê o estado atual de cada objeto"]
+  };
+  return callback(null, user, context);
+}
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Avalia os técnicos em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Administra o acesso dos Técnicos em Formação aos processos de restauro"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Tem controlo sobre quem acede aos processos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Vê os trabalhos dos Técnicos em Formação que estão bloqueados"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Bloqueia os trabalhos que já estão atribuidos a Técnicos em Formação"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Consulta a Ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Vê quem intervém no processo de restauro e a sua importância"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Gestor do Sistema"]
+    "roles": ["Gestor"],
+    "permissions": ["Cria Fichas Técnicas"]
+  };
+  return callback(null, user, context);
+}
+
+
+
+//*************************Coordenador de Equipa***********************//
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Acessar à página com a informação sobre a equipa e os seus cargos no processo de restauro"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Verificar quem intervém no processo de restauro e a sua importância"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Validar a ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Lacrar a ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Delegar ao Diretor Técnico a função de validar a ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Delegar ao Diretor Técnico a função de lacrar a ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Consultar a Ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Distribui os objetos pelos Técnicos em Formação para restauro"]
+  };
+  return callback(null, user, context);
+}
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Consultar os processos"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Coordenador de Equipa"]
+    "roles": ["Coordenador"],
+    "permissions": ["Editar as fichas técnicas"]
+  };
+  return callback(null, user, context);
+}	
+
+
+
+//*************************Técnico em Formação***********************//
+
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Vê os objetos que está a restaurar"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Vê o histórico dos trabalhos que já restaurou"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Vê os diferentes objetos em restauro"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Adiciona informação ao trabalho anterior atribuido"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Vê a informação que os outros Tecnicos em Formação escrevem sobre o objeto que esta a restaurar"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Pode ver os progressos de cada objeto trabalhado"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Vê os progressos de cada objeto trabalhado"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Insere o némero do objeto para lhe ser atribuido o mesmo"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Acessa à Ficha Técnica do objeto a restaurar"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Consulta o trabalho feito anteirormente no objeto no qual está a trabalhar"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Pode submeter fotos do objeto "]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Submete uma alteração ao objeto que lhe foi atribuido"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Recebe uma justificação para a rejeição do trabalho escolhido"]
+  };
+  return callback(null, user, context);
+}
+
+
+function (user, context, callback) {
+  var namespace = 'https://tojs.io/';
+  context.accessToken[namespace + 'user_authorization'] = {
+    "groups": ["Técnico em Formação"]
+    "roles": ["Técnico em Formação"],
+    "permissions": ["Pode introduzir os processos do objeto na Ficha Técnica"]
+  };
+  return callback(null, user, context);
+}
