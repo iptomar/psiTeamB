@@ -1,0 +1,90 @@
+Análise de Requisitos
+
+
+Tipos de Utilizadores:
+  - Gestor 
+  - Coordenador de Equipa
+  - Diretor Técnico
+  - Técnico em Formação
+  - Técnico
+  
+  
+  
+Requisitos/ Funcionalidades do Técnico e Técnico em formação:
+
+A.	O Técnico quando acede ao sistema apenas pode executar as seguintes tarefas:
+  a.	Aceder ao sistema para consultar a informação pública sobre o site
+  b.	Registar-se no sistema
+
+B.	As hipóteses anteriormente referidas são adicionadas, alteradas ou apagadas por um Diretor.
+
+C.	Antes de efetuar o registo, o Técnico é um Utilizador Anónimo e apenas quando efetua o registo passa a ter a designação de Cliente, devendo aí fornecer obrigatoriamente todos os seguintes dados:
+
+  a.	Nome Completo
+  b.	Endereço de Email
+  c.	Nome de Utilizador
+  d.	Nome único no sistema, responsável por identificar o utilizador
+  e.	Password
+
+D.	A password fornecida na criação de um utilizador deverá ser constituída por um mínimo de 6 e um máximo de 12 carateres. Deverá conter, pelo menos, um algarismo, uma letra minúscula, uma letra maiúscula e dois carateres especiais. Deverá ser cifrada com o algoritmo de Hash adequado.
+
+E.	O sistema deverá disponibilizar ao Técnico uma página de autenticação para o cliente poder entrar no sistema com esse perfil.
+Funcionalidades do Técnico
+
+
+Requisitos/ Funcionalidades do Técnico:
+
+A.	O Técnico deve preencher as fichas técnicas através dos seguintes campos:
+  a.	O parâmetro Bem Integrado em Conjuntos deve ser do tipo “Sim” ou “Não” e é de preenchimento obrigatório;
+  b.	O tipo de conjunto ou bens do Conjuntos não é de preenchimento obrigatório; 
+  c.	Os elementos constituintes do Bem Cultural não são de preenchimento obrigatório;
+  d.	Os materiais ou elementos acessórios não é de preenchimento obrigatório;
+  e.	As marcas, inscrições e assinaturas de Autoria;
+  f.	As marcas e inscrições de Montagem de Elementos;
+  g.	As marcas e inscrições de Construção;
+  h.	O parâmetro Classificação Patrimonial deve ser preenchido apenas com um dos seguintes campos:
+      i.	Mundial;
+      ii.	Internacional;
+      iii.	Nacional;
+      iv.	Regional;
+      v.	Local;
+  i.	O parâmetro Estilo ou gosto da peça;
+  j.	O parâmetro época deve ser preenchido é de preenchimento obrigatório e deve ser preenchido apenas com um dos seguintes campos:
+    i.	Coevo;
+    ii.	Tardio;
+    iii.	Outra Época;
+    iv.	Réplica;
+    v.	Reprodução;
+    vi.	Falsificação;
+  k.	O parâmetro Qualidade é de preenchimento obrigatório e deve se preenchido apenas com um dos seguintes campos:
+    i.	Excelente;
+    ii.	Muito boa;
+    iii.	Boa;
+    iv.	Regular;
+    v.	Fraca;
+  l.	O parâmetro Materiais e o parâmetro Técnicas contêm requisitos não obrigatórios e que só devem ser preenchidos se houver informação acerca deles:
+    i.	Estrutura/ Suporte;
+    ii.	Superfície;
+
+  m.	O parâmetro Breve Descrição deve do tipo TextBox;
+  n.	O parâmetro Analogias é de preenchimento não obrigatório;
+  o.	O parâmetro Conclusões é de preenchimento não obrigatório;
+  p.	O parâmetro Auditoria/ Oficina;
+  q.	O parâmetro Datação;
+  r.	O parâmetro Local de Origem/ Produção;
+
+
+
+User Stories:
+	
+	Como Técnico em Formação quero ver as peças que tenho para restaurar. 
+	Como Gestor do Sistema quero ter um campo onde possa distribuir as peças pelos alunos para que eles as possam restaurar.
+	Como Técnico em Formação quero ter um chat para quando tiver dúvidas sobre alguma peça possa contatar o professor e esclarecer essas dúvidas.
+	Como Gestor do Sistema quero ver o estado atual de cada peça para poder acompanhar e avaliar os alunos que estão a restaurar as peças que lhe estão atribuídas.
+	Como Técnico em Formação quero uma página de perfil para ter os dados pessoais e uma lista com um histórico dos trabalhos de restauro já realizados por mim.
+	Como Gestor do Sistema eu quero um campo de pesquisa para poder consultar os processos por nome ou por categoria.
+
+
+
+Autor: João Nunes
+
