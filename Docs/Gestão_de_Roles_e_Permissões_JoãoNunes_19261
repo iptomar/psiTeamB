@@ -1,5 +1,5 @@
 //As roles e permissões do Gestor de Sistema estão feitas!!!!!!!!!!!!
-//*************************Gestor de Ssitema***********************//
+//*************************Gestor do Sistema***********************//
 
 function (user, context, callback) {
   var namespace = 'https://app.pt/';
